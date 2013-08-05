@@ -11,7 +11,9 @@
 
 #define kScreenWidth [[UIScreen mainScreen]bounds].size.width
 #define kScreenHeight [[UIScreen mainScreen]bounds].size.height
-#define kCellHeight 200.0
+#define kCellHeight 150.0
+#define kImageWidth 45
+#define kImageHeight 45
 
 @interface ViewController ()
 {
@@ -65,15 +67,15 @@
     if(cell == nil)
     {
         cell = [[CustomCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-        [[cell imgView1] setFrame:CGRectMake(0, 0, kScreenWidth, kCellHeight * 0.5)];
-        [[cell imgView2] setFrame:CGRectMake(0,kCellHeight * 0.5,kScreenWidth,kCellHeight * 0.5)];
+        [[cell imgView1] setFrame:CGRectMake(0, 0, kImageWidth, kImageHeight)];
+        [[cell imgView2] setFrame:CGRectMake(100,0,kImageWidth,kImageHeight)];
         
         [[cell contentView] addSubview:[cell imgView1]];
         [[cell contentView] addSubview:[cell imgView2]];
     }
     
-    [[cell imgView1] setImage:[UIImage imageNamed:@"Lion1.jpg"]];
-    [[cell imgView2] setImage:[UIImage imageNamed:@"Lion2.jpg"]];
+    [[cell imgView1] setImage:[UIImage imageNamed:@"facesmile.png"]];
+    [[cell imgView2] setImage:[UIImage imageNamed:@"Clock-Time.png"]];
     
     return cell;
 }

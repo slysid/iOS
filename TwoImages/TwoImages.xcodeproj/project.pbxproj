@@ -19,8 +19,8 @@
 		EFA9A74017AAAAA300D9DA7C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA9A73E17AAAAA300D9DA7C /* MainStoryboard.storyboard */; };
 		EFA9A74317AAAAA300D9DA7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA9A74217AAAAA300D9DA7C /* ViewController.m */; };
 		EFA9A74B17AAAAD900D9DA7C /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA9A74A17AAAAD900D9DA7C /* CustomCell.m */; };
-		EFA9A74E17AAB12900D9DA7C /* Lion1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFA9A74C17AAB12900D9DA7C /* Lion1.jpg */; };
-		EFA9A74F17AAB12900D9DA7C /* Lion2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFA9A74D17AAB12900D9DA7C /* Lion2.jpg */; };
+		EFD2689317AFE6CF00C2E5FC /* facesmile.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD2689217AFE6CF00C2E5FC /* facesmile.png */; };
+		EFD2689517AFE70800C2E5FC /* Clock-Time.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD2689417AFE70800C2E5FC /* Clock-Time.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +42,8 @@
 		EFA9A74217AAAAA300D9DA7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFA9A74917AAAAD900D9DA7C /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		EFA9A74A17AAAAD900D9DA7C /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
-		EFA9A74C17AAB12900D9DA7C /* Lion1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion1.jpg; sourceTree = "<group>"; };
-		EFA9A74D17AAB12900D9DA7C /* Lion2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lion2.jpg; sourceTree = "<group>"; };
+		EFD2689217AFE6CF00C2E5FC /* facesmile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facesmile.png; sourceTree = "<group>"; };
+		EFD2689417AFE70800C2E5FC /* Clock-Time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock-Time.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 				EFA9A74217AAAAA300D9DA7C /* ViewController.m */,
 				EFA9A74917AAAAD900D9DA7C /* CustomCell.h */,
 				EFA9A74A17AAAAD900D9DA7C /* CustomCell.m */,
-				EFA9A74C17AAB12900D9DA7C /* Lion1.jpg */,
-				EFA9A74D17AAB12900D9DA7C /* Lion2.jpg */,
+				EFD2689217AFE6CF00C2E5FC /* facesmile.png */,
+				EFD2689417AFE70800C2E5FC /* Clock-Time.png */,
 				EFA9A72D17AAAAA300D9DA7C /* Supporting Files */,
 			);
 			path = TwoImages;
@@ -174,8 +174,8 @@
 				EFA9A73B17AAAAA300D9DA7C /* Default@2x.png in Resources */,
 				EFA9A73D17AAAAA300D9DA7C /* Default-568h@2x.png in Resources */,
 				EFA9A74017AAAAA300D9DA7C /* MainStoryboard.storyboard in Resources */,
-				EFA9A74E17AAB12900D9DA7C /* Lion1.jpg in Resources */,
-				EFA9A74F17AAB12900D9DA7C /* Lion2.jpg in Resources */,
+				EFD2689317AFE6CF00C2E5FC /* facesmile.png in Resources */,
+				EFD2689517AFE70800C2E5FC /* Clock-Time.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +312,7 @@
 				EFA9A74817AAAAA300D9DA7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
