@@ -18,6 +18,7 @@
 		EFD268B917AFEF5700C2E5FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFD268B817AFEF5700C2E5FC /* Default-568h@2x.png */; };
 		EFD268BC17AFEF5700C2E5FC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD268BA17AFEF5700C2E5FC /* MainStoryboard.storyboard */; };
 		EFD268BF17AFEF5700C2E5FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD268BE17AFEF5700C2E5FC /* ViewController.m */; };
+		EFD268CD17AFF8A900C2E5FC /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD268CC17AFF8A900C2E5FC /* TableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		EFD268BB17AFEF5700C2E5FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EFD268BD17AFEF5700C2E5FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EFD268BE17AFEF5700C2E5FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFD268CB17AFF8A900C2E5FC /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		EFD268CC17AFF8A900C2E5FC /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				EFD268BA17AFEF5700C2E5FC /* MainStoryboard.storyboard */,
 				EFD268BD17AFEF5700C2E5FC /* ViewController.h */,
 				EFD268BE17AFEF5700C2E5FC /* ViewController.m */,
+				EFD268CB17AFF8A900C2E5FC /* TableController.h */,
+				EFD268CC17AFF8A900C2E5FC /* TableController.m */,
 				EFD268A917AFEF5700C2E5FC /* Supporting Files */,
 			);
 			path = HalfTable;
@@ -176,6 +181,7 @@
 				EFD268AF17AFEF5700C2E5FC /* main.m in Sources */,
 				EFD268B317AFEF5700C2E5FC /* AppDelegate.m in Sources */,
 				EFD268BF17AFEF5700C2E5FC /* ViewController.m in Sources */,
+				EFD268CD17AFF8A900C2E5FC /* TableController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				EFD268C417AFEF5700C2E5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

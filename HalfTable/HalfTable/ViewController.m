@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableController.h"
 
 #define kScreenWidth [[UIScreen mainScreen] bounds].size.width
 #define kScreenHeight [[UIScreen mainScreen] bounds].size.height
@@ -14,7 +15,7 @@
 @interface ViewController ()
 
 {
-    UITableView *tableView;
+    TableController *tableController;
 }
 
 @end
@@ -25,9 +26,8 @@
 {
     [super viewDidLoad];
     
-    
-    tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 500, kScreenWidth,kScreenHeight) style:UITableViewStyleGrouped];
-    [[self view] addSubview:tableView];
+    tableController = [[TableController alloc]initWithStyle:UITableViewStyleGrouped];
+    [[self view] addSubview:[tableController myTableView]];
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -41,11 +41,9 @@
 -(void) buttonClicked:(id)sender
 {
     [UIView animateWithDuration:1.0 delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
-        
-        [tableView setFrame:CGRectMake(0, 100, kScreenWidth, kScreenHeight * 0.5)];
-    
-    } completion:^(BOOL finished) {
-    }];
+        [[tableController myTableView] setFrame:CGRectMake(0, kScreenHeight * 0.5, kScreenWidth, kScreenHeight * 0.5)];
+    } completion:nil];
+   
     
 }
 
