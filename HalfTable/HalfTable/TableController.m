@@ -17,6 +17,7 @@
 
 @implementation TableController
 @synthesize myTableView;
+@synthesize closeButton;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -28,6 +29,11 @@
         [[self view] addSubview:myTableView];
         [myTableView setDelegate:self];
         [myTableView setDataSource:self];
+        
+        closeButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+        [closeButton setTitle:@"close" forState:UIControlStateNormal];
+        [closeButton setFrame:CGRectMake(150, 80, 50, 50)];
+        [closeButton addTarget:nil action:@selector(closeButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
         
     }
     return self;
@@ -61,7 +67,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 2;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -72,11 +78,18 @@
     if(cell == nil)
     {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        [[cell textLabel] addSubview:closeButton];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     }
     
     [[cell textLabel] setText:@"Test"];
     
     return cell;
+}
+
+-(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 150;
 }
 
 /*

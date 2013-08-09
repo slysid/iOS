@@ -47,4 +47,10 @@
     
 }
 
+
+-(void) closeButtonTapped:(id) sender
+{
+    NSLog(@"Closed");
+}
+
 @end

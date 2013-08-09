@@ -11,5 +11,6 @@
 @interface TableController : UITableViewController
 
 @property (nonatomic,strong) UITableView *myTableView;
+@property (nonatomic,strong) UIButton *closeButton;
 
 @end
