@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6234F017EE2A490044ECFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6234EF17EE2A490044ECFA /* Foundation.framework */; };
+		EF6234F217EE2A490044ECFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6234F117EE2A490044ECFA /* CoreGraphics.framework */; };
+		EF6234F417EE2A490044ECFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6234F317EE2A490044ECFA /* UIKit.framework */; };
+		EF6234FA17EE2A490044ECFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF6234F817EE2A490044ECFA /* InfoPlist.strings */; };
+		EF6234FC17EE2A490044ECFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6234FB17EE2A490044ECFA /* main.m */; };
+		EF62350017EE2A490044ECFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6234FF17EE2A490044ECFA /* AppDelegate.m */; };
+		EF62350317EE2A490044ECFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF62350117EE2A490044ECFA /* Main.storyboard */; };
+		EF62350817EE2A490044ECFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF62350717EE2A490044ECFA /* Images.xcassets */; };
+		EF62350F17EE2A490044ECFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62350E17EE2A490044ECFA /* XCTest.framework */; };
+		EF62351017EE2A490044ECFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6234EF17EE2A490044ECFA /* Foundation.framework */; };
+		EF62351117EE2A490044ECFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6234F317EE2A490044ECFA /* UIKit.framework */; };
+		EF62351917EE2A490044ECFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF62351717EE2A490044ECFA /* InfoPlist.strings */; };
+		EF62351B17EE2A490044ECFA /* MutlipleLineCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62351A17EE2A490044ECFA /* MutlipleLineCellTests.m */; };
+		EF62352617EE2A890044ECFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62352517EE2A890044ECFA /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF62351217EE2A490044ECFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6234E417EE2A490044ECFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6234EB17EE2A490044ECFA;
+			remoteInfo = MutlipleLineCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6234EC17EE2A490044ECFA /* MutlipleLineCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutlipleLineCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6234EF17EE2A490044ECFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF6234F117EE2A490044ECFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF6234F317EE2A490044ECFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF6234F717EE2A490044ECFA /* MutlipleLineCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutlipleLineCell-Info.plist"; sourceTree = "<group>"; };
+		EF6234F917EE2A490044ECFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF6234FB17EE2A490044ECFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF6234FD17EE2A490044ECFA /* MutlipleLineCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MutlipleLineCell-Prefix.pch"; sourceTree = "<group>"; };
+		EF6234FE17EE2A490044ECFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF6234FF17EE2A490044ECFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF62350217EE2A490044ECFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF62350717EE2A490044ECFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF62350D17EE2A490044ECFA /* MutlipleLineCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MutlipleLineCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF62350E17EE2A490044ECFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF62351617EE2A490044ECFA /* MutlipleLineCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MutlipleLineCellTests-Info.plist"; sourceTree = "<group>"; };
+		EF62351817EE2A490044ECFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF62351A17EE2A490044ECFA /* MutlipleLineCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutlipleLineCellTests.m; sourceTree = "<group>"; };
+		EF62352417EE2A890044ECFA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF62352517EE2A890044ECFA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6234E917EE2A490044ECFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6234F217EE2A490044ECFA /* CoreGraphics.framework in Frameworks */,
+				EF6234F417EE2A490044ECFA /* UIKit.framework in Frameworks */,
+				EF6234F017EE2A490044ECFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF62350A17EE2A490044ECFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62350F17EE2A490044ECFA /* XCTest.framework in Frameworks */,
+				EF62351117EE2A490044ECFA /* UIKit.framework in Frameworks */,
+				EF62351017EE2A490044ECFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6234E317EE2A490044ECFA = {
+			isa = PBXGroup;
+			children = (
+				EF6234F517EE2A490044ECFA /* MutlipleLineCell */,
+				EF62351417EE2A490044ECFA /* MutlipleLineCellTests */,
+				EF6234EE17EE2A490044ECFA /* Frameworks */,
+				EF6234ED17EE2A490044ECFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6234ED17EE2A490044ECFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6234EC17EE2A490044ECFA /* MutlipleLineCell.app */,
+				EF62350D17EE2A490044ECFA /* MutlipleLineCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6234EE17EE2A490044ECFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF6234EF17EE2A490044ECFA /* Foundation.framework */,
+				EF6234F117EE2A490044ECFA /* CoreGraphics.framework */,
+				EF6234F317EE2A490044ECFA /* UIKit.framework */,
+				EF62350E17EE2A490044ECFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF6234F517EE2A490044ECFA /* MutlipleLineCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF6234FE17EE2A490044ECFA /* AppDelegate.h */,
+				EF6234FF17EE2A490044ECFA /* AppDelegate.m */,
+				EF62350117EE2A490044ECFA /* Main.storyboard */,
+				EF62352417EE2A890044ECFA /* ViewController.h */,
+				EF62352517EE2A890044ECFA /* ViewController.m */,
+				EF62350717EE2A490044ECFA /* Images.xcassets */,
+				EF6234F617EE2A490044ECFA /* Supporting Files */,
+			);
+			path = MutlipleLineCell;
+			sourceTree = "<group>";
+		};
+		EF6234F617EE2A490044ECFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6234F717EE2A490044ECFA /* MutlipleLineCell-Info.plist */,
+				EF6234F817EE2A490044ECFA /* InfoPlist.strings */,
+				EF6234FB17EE2A490044ECFA /* main.m */,
+				EF6234FD17EE2A490044ECFA /* MutlipleLineCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF62351417EE2A490044ECFA /* MutlipleLineCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF62351A17EE2A490044ECFA /* MutlipleLineCellTests.m */,
+				EF62351517EE2A490044ECFA /* Supporting Files */,
+			);
+			path = MutlipleLineCellTests;
+			sourceTree = "<group>";
+		};
+		EF62351517EE2A490044ECFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF62351617EE2A490044ECFA /* MutlipleLineCellTests-Info.plist */,
+				EF62351717EE2A490044ECFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6234EB17EE2A490044ECFA /* MutlipleLineCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF62351E17EE2A490044ECFA /* Build configuration list for PBXNativeTarget "MutlipleLineCell" */;
+			buildPhases = (
+				EF6234E817EE2A490044ECFA /* Sources */,
+				EF6234E917EE2A490044ECFA /* Frameworks */,
+				EF6234EA17EE2A490044ECFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutlipleLineCell;
+			productName = MutlipleLineCell;
+			productReference = EF6234EC17EE2A490044ECFA /* MutlipleLineCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF62350C17EE2A490044ECFA /* MutlipleLineCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF62352117EE2A490044ECFA /* Build configuration list for PBXNativeTarget "MutlipleLineCellTests" */;
+			buildPhases = (
+				EF62350917EE2A490044ECFA /* Sources */,
+				EF62350A17EE2A490044ECFA /* Frameworks */,
+				EF62350B17EE2A490044ECFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF62351317EE2A490044ECFA /* PBXTargetDependency */,
+			);
+			name = MutlipleLineCellTests;
+			productName = MutlipleLineCellTests;
+			productReference = EF62350D17EE2A490044ECFA /* MutlipleLineCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6234E417EE2A490044ECFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bharath Kumar Devaraj";
+				TargetAttributes = {
+					EF62350C17EE2A490044ECFA = {
+						TestTargetID = EF6234EB17EE2A490044ECFA;
+					};
+				};
+			};
+			buildConfigurationList = EF6234E717EE2A490044ECFA /* Build configuration list for PBXProject "MutlipleLineCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6234E317EE2A490044ECFA;
+			productRefGroup = EF6234ED17EE2A490044ECFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6234EB17EE2A490044ECFA /* MutlipleLineCell */,
+				EF62350C17EE2A490044ECFA /* MutlipleLineCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6234EA17EE2A490044ECFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62350817EE2A490044ECFA /* Images.xcassets in Resources */,
+				EF6234FA17EE2A490044ECFA /* InfoPlist.strings in Resources */,
+				EF62350317EE2A490044ECFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF62350B17EE2A490044ECFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62351917EE2A490044ECFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6234E817EE2A490044ECFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62352617EE2A890044ECFA /* ViewController.m in Sources */,
+				EF62350017EE2A490044ECFA /* AppDelegate.m in Sources */,
+				EF6234FC17EE2A490044ECFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF62350917EE2A490044ECFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62351B17EE2A490044ECFA /* MutlipleLineCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF62351317EE2A490044ECFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6234EB17EE2A490044ECFA /* MutlipleLineCell */;
+			targetProxy = EF62351217EE2A490044ECFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6234F817EE2A490044ECFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6234F917EE2A490044ECFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF62350117EE2A490044ECFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF62350217EE2A490044ECFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF62351717EE2A490044ECFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF62351817EE2A490044ECFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF62351C17EE2A490044ECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF62351D17EE2A490044ECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF62351F17EE2A490044ECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutlipleLineCell/MutlipleLineCell-Prefix.pch";
+				INFOPLIST_FILE = "MutlipleLineCell/MutlipleLineCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF62352017EE2A490044ECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutlipleLineCell/MutlipleLineCell-Prefix.pch";
+				INFOPLIST_FILE = "MutlipleLineCell/MutlipleLineCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF62352217EE2A490044ECFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutlipleLineCell.app/MutlipleLineCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutlipleLineCell/MutlipleLineCell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MutlipleLineCellTests/MutlipleLineCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF62352317EE2A490044ECFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MutlipleLineCell.app/MutlipleLineCell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MutlipleLineCell/MutlipleLineCell-Prefix.pch";
+				INFOPLIST_FILE = "MutlipleLineCellTests/MutlipleLineCellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6234E717EE2A490044ECFA /* Build configuration list for PBXProject "MutlipleLineCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF62351C17EE2A490044ECFA /* Debug */,
+				EF62351D17EE2A490044ECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF62351E17EE2A490044ECFA /* Build configuration list for PBXNativeTarget "MutlipleLineCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF62351F17EE2A490044ECFA /* Debug */,
+				EF62352017EE2A490044ECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF62352117EE2A490044ECFA /* Build configuration list for PBXNativeTarget "MutlipleLineCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF62352217EE2A490044ECFA /* Debug */,
+				EF62352317EE2A490044ECFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6234E417EE2A490044ECFA /* Project object */;
+}
